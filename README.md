@@ -1,12 +1,12 @@
 # __ParticleOptimizer__
 
-> funneh particle thingy
+- funneh particle thingy
 
-> renders particles for 1 age and makes them not move
+- renders particles for 1 age and makes them not move
 
-> no more smeary particles
+- no more smeary particles
 
-> gooooooood for dungeun visibility n stuff yeye
+- gooooooood for dungeun visibility n stuff yeye
 
 
 ## Installation:
