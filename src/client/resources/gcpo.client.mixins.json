@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.gcat.gcpo.client.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ParticlesAccessor",
+    "ParticlesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

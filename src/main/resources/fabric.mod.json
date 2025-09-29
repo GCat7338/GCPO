@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "gcpo",
+  "version": "${version}",
+  "name": "GCPO",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/gcpo/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "de.gcat.gcpo.client.GcpoDataGenerator"
+    ],
+    "client": [
+      "de.gcat.gcpo.client.GcpoClient"
+    ],
+    "main": [
+      "de.gcat.gcpo.Gcpo"
+    ]
+  },
+  "mixins": [
+    "gcpo.mixins.json",
+    {
+      "config": "gcpo.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
